@@ -1,0 +1,31 @@
+.home-container {
+    max-width: 600px;
+    margin: 80px auto;
+    text-align: center;
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+    }
+  
+    button {
+      padding: 10px 20px;
+      background-color: #c0392b;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.2s ease;
+  
+      &:hover {
+        background-color: #a93226;
+      }
+    }
+  }
+  
