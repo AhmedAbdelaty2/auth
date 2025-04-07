@@ -68,7 +68,10 @@ npm run start:dev
 ### 📚 Swagger Docs
 Access at: http://localhost:3000/api
 
-### 💻 Frontend Setup
+---
+
+## 💻 Frontend Setup
+
 cd auth-frontend
 npm install
 
