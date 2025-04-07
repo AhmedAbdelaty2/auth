@@ -44,7 +44,7 @@ A secure, production-ready full-stack authentication application featuring a bac
 ## ⚙️ Getting Started
 
 ### 📦 Prerequisites
-- Node.js (v18+ recommended)
+- Node.js
 - MongoDB running locally or on cloud (e.g. MongoDB Atlas)
 
 ---
@@ -54,16 +54,19 @@ A secure, production-ready full-stack authentication application featuring a bac
 ```bash
 cd authentication
 npm install
-
+```
 ### 🔐 Create `.env` in the root of the backend:
 
 ```env
 MONGO_URI=mongodb://localhost:27017/auth-db
 JWT_SECRET=supersecret
 PORT=3000
+```
 
 ### 🚀 Run the server
+```bash
 npm run start:dev
+```
 
 ### 📚 Swagger Docs
 Access at: http://localhost:3000/api
@@ -71,12 +74,15 @@ Access at: http://localhost:3000/api
 ---
 
 ## 💻 Frontend Setup
-
+```bash
 cd auth-frontend
 npm install
+```
 
 ### 🚀 Run the app
+```bash
 npm run dev
+```
 
 Access at: http://localhost:5173
 
